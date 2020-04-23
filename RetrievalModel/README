@@ -1,0 +1,17 @@
+# install the nltk dependency
+pip3 install nltk==3.0.5 --user
+
+# open python interactive shell and download wordnet
+python3
+import nltk
+nltk.download('wordnet')
+exit()
+
+# install prettyTable dependency
+pip3 install PrettyTable==0.7.2 --user
+
+# go to the location where python script, stopwords and cranfields file are located
+cd /home/010/a/ax/axa190084/info_retr/homework3/
+
+# execute the below command
+python3 RankedRetrieval.py
